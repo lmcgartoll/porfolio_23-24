@@ -25,7 +25,7 @@ export default function Home() {
               <Link href="/gallery">Gallery</Link>
             </li>
           </ul>
-          <div className="font-bit absolute bottom-[50px] right-[30px] w-[640px] text-[32px] text-right">
+          <div className="font-bit absolute bottom-[50px] right-[30px] max-w-[640px] ml-28 text-[32px] text-right">
             Hi! I’m Liam, a UX Design and Computer Science student at the
             University of Michigan who is passionate about web development and
             creating beautiful things that are accessible to all.
