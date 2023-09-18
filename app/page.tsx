@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="h-screen flex items-center justify-center py-10 px-12 fixed top-0 left-0 right-0 bottom-0">
+    <main className="h-screen flex items-center justify-center pt-5 pb-24 px-5 sm:py-10 sm:px-12 fixed top-0 left-0 right-0 bottom-0">
       <div className="h-full w-screen border-[2px] border-solid rounded-xl border-dark-grey overflow-hidden">
         <div className="font-mondwest text-[48px] leading-none px-[30px] py-[50px] relative h-full">
           Liam Mc Gartoll
