@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  /* font-family: "montreal";
+  src: url("../public/fonts/PPNeueMontreal-Medium.otf");
+
+  font-family: "montreal-bold";
+  src: url("../public/fonts/PPNeueMontreal-Bold.otf");
+
+  font-family: "bit";
+  src: url("../public/fonts/PPNeueBit-Bold.otf"); */
+
+  font-family: "mondwest";
+  src: url("../public/fonts/PPMondwest-Regular.otf");
+}
+
+@font-face {
+  font-family: "bit";
+  src: url("../public/fonts/PPNeueBit-Bold.otf");
+}
+
+@font-face {
+  font-family: "montreal";
+  src: url("../public/fonts/PPNeueMontreal-Medium.otf");
+}
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: #222;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #f0f0f0;
+  color: #222;
 }
